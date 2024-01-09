@@ -7,11 +7,59 @@
 </head>
 <body>
     <h1>Forms Explanation</h1>
-    <form  action="main.cs">
-        Name : <input type="text" name="n1" id=""><br><br>
-        Email: <input type="email" name="e1" id=""><br><br>
+    <form  action="main.py" method="post">
+        <label for="n1">Name:</label>
+         <input id="n1" type="name" name="name" placeholder="Enter Your Name"><br><br>
+         
+         <label for="e1">Email:</label>
+         <input id="e1" type="email" name="email" placeholder="Enter Your Email"><br><br>
+         
+         <label for="pass">Password:</label>
+         <input type="password" name="password" id="pass" placeholder="Enter Your Password"><br><br>
+         
+         <label for="phno">phone number:</label>
+         <input type="number" name="number" id="phno" placeholder="Enter Your Number"><br><br>
+         
+         <label for="dob">Date of Birth:</label>
+         <input type="date" name="dob" id="dob"><br><br>
+         
+         <label for="sign">Signature:</label>
+         <input type="file" name="file" id="sign"><br><br>
+         
+         <label for="color">Colour:</label>
+         <input type="color" name="colour" id="color"><br><br>
+         
+         <label for="time">Time:</label>
+         <input type="time" name="time" id="time"><br><br>
+         
+         <label for="datetime">DateTime:</label>
+         <input type="datetime-local" name="datetime" id="datetime"><br><br>
+         
+         <label for="url">Url:</label>
+         <input type="url" name="url" id="url"><br><br>
+         
+         <label for="range">Range:</label>
+         <input type="range" name="range" id="range"><br><br>
+         
+        <input type="hidden" name="">
+
+        <label for="month">Month:</label>
+        <input type="month" name="month" id="month"><br><br>
+
+        <label for="week">Week:</label>
+        <input type="week" name="week" id="week"><br><br>
+
+        Enter gender: 
+
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br><br>
+
        <button type="submit">submit</button>
        <input type="submit" value="submit">
+       <input type="reset" value="reset">
        
        
     </form>
