@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms2</title>
+</head>
+<body>
+    <h1>Forms2</h1>
+   
+    <p>Please Choose The Correct Gender</p>
+    <!--Radio Buttons-->
+    <form action="">
+    
+       <fieldset>
+        
+        <legend>My Form</legend>
+
+        <input type="radio" name="gender" id="m" value="male" checked>
+        <label for="m">Male</label>
+    
+        <input type="radio" name="gender" id="f" value="female">
+        <label for="f">Female</label> <br>
+
+        <p>Skills:</p>
+        <!--Check box-->
+
+        <input type="checkbox" name="html" id="html" value="html" checked>
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="css" id="css" value="css" >
+        <label for="css">CSS</label>
+
+        <input type="checkbox" name="js" id="js" value="js">
+        <label for="js">JS</label><br><br>
+
+        <!--Drop Down-->
+        <select name="states" id="">
+
+            <option value="AP">AP</option>
+            <option value="TS">TS</option>
+            <option value="TN">TN</option>
+            <option value="MH">MH</option>
+            <option value="KL">KL</option>
+
+        </select>
+
+        <select name="states" id="" multiple>
+
+            <option value="AP">AP</option>
+            <option value="TS">TS</option>
+            <option value="TN">TN</option>
+            <option value="MH">MH</option>
+            <option value="KL">KL</option>
+
+        </select>
+
+        <select name="Vehicles" id="">
+
+            <optgroup label="Bikes">
+                <option value="re">Bullet</option>
+                <option value="honda">Activa</option>
+            </optgroup>
+            <optgroup label="Cars">
+                <option value="bmw">BMW</option>
+                <option value="tata">Altroz</option>
+            </optgroup>
+           <optgroup label="Others">
+            <option value="cycle">Bicycle</option>
+            <option value="bullock cart">Bullock Cart</option>
+           </optgroup>
+
+        </select>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <button type="submit">Submit</button>
+
+       </fieldset>
+
+    </form>
+    
+   
+    
+</body>
+</html>
